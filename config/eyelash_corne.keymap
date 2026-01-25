@@ -127,7 +127,7 @@
                                     &trans  &trans  &to 0                                                                &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         layer_3 {
@@ -139,7 +139,7 @@
                                    &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         layer_4 {
@@ -149,6 +149,8 @@
 &trans  &bt BT_CLR_ALL  &caps_word    &trans        &trans        &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans                                          &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A B>;
         };
     };
 };
