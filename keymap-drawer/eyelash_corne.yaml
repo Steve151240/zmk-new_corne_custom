@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
   - B
   - L
   - D
@@ -13,8 +13,8 @@ layers:
   - O
   - U
   - {t: '''', s: '"'}
-  - '&studio_unlock'
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
+  - '&bl BL_DEC'
   - N
   - R
   - T
@@ -28,21 +28,21 @@ layers:
   - A
   - E
   - I
-  - '&studio_unlock'
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
+  - $$mdi:alpha-w-box$$
   - X
   - Q
   - M
   - W
   - Z
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
   - BT CLR ALL
   - K
   - F
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
   - $$mdi:apple-keyboard-shift$$
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -148,7 +148,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
   - F1
   - F2
   - F3
@@ -227,7 +227,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
-  - '&studio_unlock'
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
