@@ -97,10 +97,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&studio_unlock  &kp B  &kp L  &kp D           &kp C  &kp V                                                           &bt BT_CLR                  &kp J      &kp Y  &kp O      &kp U    &kp SQT   &studio_unlock
-&studio_unlock  &kp N  &kp R  &kp T           &kp S  &StickyHomeRowMod LEFT_WIN G                    &bt BT_CLR_ALL  &bl BL_DEC      &bt BT_CLR  &kp P      &kp H  &kp A      &kp E    &kp I     &studio_unlock
-&studio_unlock  &kp X  &kp Q  &kp M           &kp W  &kp Z                         &studio_unlock                    &bt BT_CLR_ALL              &kp K      &kp F  &kp COMMA  &kp DOT  &kp FSLH  &studio_unlock
-                              &kp LEFT_SHIFT  &mo 1  &mo_lt 3 SPACE                                                                              &bksp_ent  &mo 2  &kp TAB
+&caps_word  &kp B  &kp L  &kp D           &kp C  &kp V                                                       &bt BT_CLR                  &kp J      &kp Y  &kp O      &kp U    &kp SQT   &caps_word
+&bl BL_DEC  &kp N  &kp R  &kp T           &kp S  &StickyHomeRowMod LEFT_WIN G                &bt BT_CLR_ALL  &bl BL_DEC      &bt BT_CLR  &kp P      &kp H  &kp A      &kp E    &kp I     &caps_word
+&caps_word  &kp X  &kp Q  &kp M           &kp W  &kp Z                         &caps_word                    &bt BT_CLR_ALL              &kp K      &kp F  &kp COMMA  &kp DOT  &kp FSLH  &caps_word
+                          &kp LEFT_SHIFT  &mo 1  &mo_lt 3 SPACE                                                                          &bksp_ent  &mo 2  &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
@@ -133,10 +133,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&caps_word  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&trans      &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans      &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                   &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
             sensor-bindings = <&none>;
@@ -144,10 +144,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &trans          &trans        &trans        &trans                          &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_CLR_ALL  &studio_unlock  &trans        &trans        &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans        &trans        &trans                                          &trans  &trans  &trans
+&trans  &trans          &trans        &trans        &trans        &trans                          &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_CLR_ALL  &caps_word    &trans        &trans        &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans        &trans        &trans                                          &trans  &trans  &trans
             >;
         };
     };
