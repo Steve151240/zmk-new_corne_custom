@@ -101,6 +101,8 @@
 &none  &kp X  &kp Q  &kp M           &kp W  &kp Z                         &none           &none         &kp K      &kp F  &kp COMMA  &kp DOT  &kp FSLH  &none
                      &kp LEFT_SHIFT  &mo 1  &mo_lt 3 SPACE                                              &bksp_ent  &mo 2  &kp TAB
             >;
+
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         lower_layer {
